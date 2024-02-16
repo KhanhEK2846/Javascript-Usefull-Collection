@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+button {
+	width: 50px;
+	border-radius: 50px;
+	border: 1px solid yellowgreen;
+}
+
+.btn {
+	padding: 10px;
+	width: 60px;
+}
+
+#contain_click {
+	z-index: 10;
+	position: absolute;
+	transition: all 0.3s;
+}
