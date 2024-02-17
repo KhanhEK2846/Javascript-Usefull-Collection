@@ -24,7 +24,14 @@ body::-webkit-scrollbar {
 .cursor {
 	width: 100px;
 	height: 100px;
-	background-color: white;
+	background-image: radial-gradient(
+		circle,
+		#ffffff,
+		#b9b9b9,
+		#777777,
+		#3b3b3b,
+		#000000
+	);
 	position: absolute;
 	top: 0;
 	left: 0;
