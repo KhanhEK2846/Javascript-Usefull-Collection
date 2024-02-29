@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	width: 100px;
+	border-radius: 50px;
+	border: 1px solid yellowgreen;
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
