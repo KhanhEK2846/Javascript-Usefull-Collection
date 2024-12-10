@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	font-size: xx-large;
+	font-weight: bolder;
+	flex-direction: column;
+	align-items: center;
+}
+.wrap {
+	display: flex;
+}
+button {
+	height: 100px;
+	width: 200px;
+	background: transparent;
+	border: none !important;
+	font-size: 0;
+	position: fixed;
+}
